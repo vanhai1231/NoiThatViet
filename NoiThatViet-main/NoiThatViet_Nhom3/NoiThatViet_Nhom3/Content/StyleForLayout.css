@@ -1,0 +1,85 @@
+﻿.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+    background-color: #ffffff !important;
+    margin: 0; /* Xóa margin */
+    height: 80px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.body-content {
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right:0;
+    margin-left:0;
+}
+
+.menu, footer {
+    width: 100%; /* Đặt chiều rộng thành 100% */
+    box-sizing: border-box; /* Đảm bảo rằng padding và border không làm thay đổi chiều rộng tổng cộng */
+}
+
+
+.menu-item-text {
+    padding-top: 30px; /* Điều chỉnh giá trị này theo ý muốn */
+}
+
+img, svg {
+    vertical-align: middle;
+    height: 75px;
+}
+.menu-item-text:hover {
+    color: orange; /* Màu cam */
+}
+.menu-item-text {
+    cursor: pointer; /* Thay đổi con trỏ chuột thành hình dạng tay khi di chuyển qua mục menu */
+}
+
+/* chỉnh cho thanh tìm kiếm */
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+}
+button {
+    background-color: white; 
+    border-radius: 50%;
+    border: none; 
+    padding: 5px;
+}
+form {
+    display: flex;
+    align-items: center; /* Căn chỉnh các mục theo trục ngang */
+}
+.form-inline {
+    padding-top: 0px;
+}
+.form-control {
+    margin-top: -10px; 
+}
+
+/*giữ thanh menu không trôi*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo menu hiển thị trên tất cả các phần khác */
+    background-color: #fff; /* Màu nền cho thanh menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng cho thanh menu */
+}
+.container-fluid {
+    padding-top: 80px; /* Duy trì khoảng trống phía trên bằng chiều cao của thanh menu */
+}

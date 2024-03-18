@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/StyleForLayout.css" rel="stylesheet" />
+    <style>
+        .search-container {
+            position: relative;
+        }
+
+        .search-input {
+            padding-left: 30px;
+            background-color: transparent;
+            background-size: 20px;
+            background-image: url('https://i.ibb.co/d400mmD/search-icon.png');
+            background-repeat: no-repeat;
+            background-position: 5px center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><img src="~/Content/images/logo.jpg" alt="Logo"></li>
+            <li class="menu-item-text">Danh mục nổi bật</li>
+            <li class="menu-item-text">Trang chủ</li>
+            <li class="menu-item-text">Sản phẩm</li>
+            <li class="menu-item-text">Dịch vụ</li>
+            <li class="menu-item-text">Liên hệ</li>
+            <li class="menu-item-text">
+                <form action="/search" method="get" class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 search-input" 
+                           type="text" 
+                           name="q" 
+                           placeholder="Tìm sản phẩm. . ."
+                           >
+                </form>
+            </li>
+            <li class="menu-item-text">Giỏ hàng</li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

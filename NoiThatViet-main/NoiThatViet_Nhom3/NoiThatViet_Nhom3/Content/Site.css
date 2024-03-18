@@ -1,0 +1,201 @@
+﻿/* CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-width: 0;
+}
+
+/* CSS */
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+}
+
+.banner-title {
+    position: absolute;
+    top: 20px; /* Đưa vị trí lên 20px từ phía trên */
+    right: 150px; /* Đưa vị trí sang 30px từ phía phải */
+    text-align: right; /* Căn phải cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.banner-title h1 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+}
+
+.banner-text {
+    position: absolute;
+    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    right: 30px; /* Đưa vị trí sang 30px từ phía phải */
+    text-align: right; /* Căn phải cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 10px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+}
+
+/*banner2*/
+.banner2 {
+    height: auto;
+    object-fit: cover;
+    margin: 5px 0;
+    width: 100%;
+    display: inline-block;
+}
+
+/* CSS */
+.spbanchay-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Khoảng cách giữa banner và hình sanphambanchay */
+}
+
+/*sản phẩm bán chạy */
+.spbanchay {
+    margin: 10px 0;
+    width: 650px;
+    height: 200px;
+}
+
+.spbanchay-title {
+    position: absolute;
+    top: 20px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.spbanchay-title h1 {
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+}
+
+.spbanchay-text {
+    position: absolute;
+    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.spbanchay-text p {
+    font-size: 16px;
+    margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+}
+
+/*đèn trang trí */
+.dentrangtri {
+    margin: 30px 0;
+    width: 200px;
+    height: 200px;
+}
+.dentrangtri-title {
+    position: absolute;
+    top: 10px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+.dentrangtri-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+}
+.dentrangtri-text {
+    position: absolute;
+    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+.dentrangtri-text p {
+    font-size: 16px;
+    margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+}
+
+/*đồ trang trí*/
+.dotrangtri {
+    margin: 30px 0;
+    width: 200px;
+    height: 200px;
+}
+
+/* thiết bị vệ sinh*/
+.thietbivesinh {
+    margin: 30px 0;
+    width: 200px;
+    height: 200px;
+}
+
+/*sản phẩm hàng đầu */
+.sphangdau {
+    margin: 10px 0;
+    width: 650px;
+    height: 200px;
+}
+
+/*Đồ nội thất*/
+.donoithat {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+}
+/*Đồ thủ công*/
+.dothucong {
+    margin: 10px 0;
+    width: 427px;
+    height: 200px;
+}
+
+/*hiệu ứng*/
+
+.spbanchay:hover,
+.dentrangtri:hover,
+.dotrangtri:hover,
+.thietbivesinh:hover,
+.sphangdau:hover,
+.donoithat:hover,
+.dothucong:hover {
+    transform: scale(1.05); /* Phóng to 1.05 lần */
+    transition: transform 0.3s ease; /* Hiệu ứng dần dần trong 0.3 giây */
+}
+
+/* Tùy chỉnh kích thước và vị trí title và text */
+.banner-container .banner-title,
+.banner-container .banner-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 1; /* Để title và text hiển thị trên ảnh */
+}
+
+.banner-container .banner-text {
+    top: 60px;
+}
+
+.banner-container .banner-title h1,
+.banner-container .banner-text p {
+    margin: 0;
+}
+
+.col-md-6,
+.col-md-2,
+.col-md-4 {
+    position: relative; /* Để div con trong có thể position absolute */
+}
