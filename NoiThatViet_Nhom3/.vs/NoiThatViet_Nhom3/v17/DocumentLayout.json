@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|c:\\users\\pc\\source\\repos\\noithatviet_nhom3\\noithatviet_nhom3\\content\\styleforlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\styleforlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StyleForLayout.css",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-18T06:25:47.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T08:40:22.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T07:12:52.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
