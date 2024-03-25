@@ -232,6 +232,6 @@ C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatViet_Nhom3.csproj.AssemblyReference.cache
 C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatViet_Nhom3.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatViet_Nhom3.csproj.CopyComplete
 C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatViet_Nhom3.dll
 C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatViet_Nhom3.pdb
+C:\Users\Admin\source\NoiThatViet_Nhom3\NoiThatViet_Nhom3\obj\Debug\NoiThatV.E8204CAE.Up2Date

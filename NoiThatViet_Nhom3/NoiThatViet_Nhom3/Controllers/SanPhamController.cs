@@ -16,5 +16,31 @@ namespace NoiThatViet.Controllers
             var all_SanPham = from tt in Data.SanPhams select tt;
             return View(all_SanPham);
         }
+        //Them vat pham vao danh sach yeu thich
+        public ActionResult AddToWishlist(string id)
+        {
+            var product = Data.SanPhams.FirstOrDefault(p => p.MaSanPham == id);
+            if (product != null)
+            {   
+                // Toggle wishlist status
+               // product.IsInWishlist = true;
+                Data.SubmitChanges(); // Luu thong tin vao database
+            }
+            return RedirectToAction("Index");
+        }
+
+        // 
+        public ActionResult RemoveFromWishlist(string id)
+        {
+            // Retrieve the product
+            var product = Data.SanPhams.FirstOrDefault(p => p.MaSanPham == id);
+            if (product != null)
+            {
+                // Toggle wishlist status
+                //product.IsInWishlist = false;
+                Data.SubmitChanges(); // Luu thong tin vao database
+            }
+            return RedirectToAction("Index");
+        }
     }
 }

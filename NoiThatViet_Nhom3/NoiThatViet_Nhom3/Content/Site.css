@@ -15,7 +15,7 @@ body, html {
 
 .banner {
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .banner-title {
@@ -26,11 +26,11 @@ body, html {
     color: white; /* Màu chữ trắng */
 }
 
-.banner-title h1 {
-    font-size: 40px;
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
-}
+    .banner-title h1 {
+        font-size: 40px;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+    }
 
 .banner-text {
     position: absolute;
@@ -40,11 +40,11 @@ body, html {
     color: white; /* Màu chữ trắng */
 }
 
-.banner-text p {
-    font-size: 18px;
-    margin: 10px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
-}
+    .banner-text p {
+        font-size: 18px;
+        margin: 20px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+    }
 
 /*banner2*/
 .banner2 {
@@ -77,11 +77,11 @@ body, html {
     color: white; /* Màu chữ trắng */
 }
 
-.spbanchay-title h1 {
-    font-size: 30px;
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
-}
+    .spbanchay-title h1 {
+        font-size: 30px;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+    }
 
 .spbanchay-text {
     position: absolute;
@@ -91,43 +91,41 @@ body, html {
     color: white; /* Màu chữ trắng */
 }
 
-.spbanchay-text p {
-    font-size: 16px;
-    margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
-}
+    .spbanchay-text p {
+        font-size: 16px;
+        margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+    }
 
 /*đèn trang trí */
 .dentrangtri {
     margin: 30px 0;
     width: 200px;
     height: 200px;
+    position: relative;
 }
-.dentrangtri-title {
-    position: absolute;
-    top: 10px; /* Đưa vị trí lên 20px từ phía trên */
-    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
-    text-align: left; /* Căn trái cho văn bản */
-    color: white; /* Màu chữ trắng */
-}
+
 .dentrangtri-title h1 {
     font-size: 20px;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
-.dentrangtri-text {
+
+.dentrangtri-title {
     position: absolute;
-    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
     left: 30px; /* Đưa vị trí sang 30px từ phía trái */
     text-align: left; /* Căn trái cho văn bản */
     color: white; /* Màu chữ trắng */
 }
-.dentrangtri-text p {
-    font-size: 16px;
-    margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
-}
 
+.dentrangtri-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
 /*đồ trang trí*/
 .dotrangtri {
     margin: 30px 0;
@@ -135,6 +133,27 @@ body, html {
     height: 200px;
 }
 
+.dotrangtri-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.dotrangtri-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.dotrangtri-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
 /* thiết bị vệ sinh*/
 .thietbivesinh {
     margin: 30px 0;
@@ -142,6 +161,27 @@ body, html {
     height: 200px;
 }
 
+.thietbivesinh-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.thietbivesinh-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.thietbivesinh-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
 /*sản phẩm hàng đầu */
 .sphangdau {
     margin: 10px 0;
@@ -149,11 +189,54 @@ body, html {
     height: 200px;
 }
 
+.sphangdau-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sphangdau-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.sphangdau-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
 /*Đồ nội thất*/
 .donoithat {
     margin: 10px 0;
     width: 200px;
     height: 200px;
+}
+
+.donoithat-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.donoithat-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.donoithat-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
 }
 /*Đồ thủ công*/
 .dothucong {
@@ -162,6 +245,27 @@ body, html {
     height: 200px;
 }
 
+.dothucong-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.dothucong-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.dothucong-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
 /*hiệu ứng*/
 
 .spbanchay:hover,
@@ -189,10 +293,10 @@ body, html {
     top: 60px;
 }
 
-.banner-container .banner-title h1,
-.banner-container .banner-text p {
-    margin: 0;
-}
+    .banner-container .banner-title h1,
+    .banner-container .banner-text p {
+        margin: 0;
+    }
 
 .col-md-6,
 .col-md-2,

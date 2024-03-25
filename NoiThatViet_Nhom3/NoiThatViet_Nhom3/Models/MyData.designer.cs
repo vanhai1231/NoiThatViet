@@ -73,7 +73,6 @@ namespace NoiThatViet_Nhom3.Models
         {
 			OnCreated();
 		}
-		
 		public MyDataDataContext(System.Data.IDbConnection connection) : 
 				base(connection, mappingSource)
 		{
