@@ -1,0 +1,27 @@
+﻿.wrapper-home-banner-servce .services {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 200px; /* Chiều cao mới bạn muốn thêm */
+ 
+    align-items: center;
+}
+
+    .wrapper-home-banner-servce .services .img-outer {
+        text-align: center;
+    }
+
+    .wrapper-home-banner-servce .services .text {
+        margin-left: 15px; /* Khoảng cách giữa ảnh và văn bản */
+    }
+
+    .wrapper-home-banner-servce .services .title {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .wrapper-home-banner-servce .services .desc {
+        font-style: italic;
+        text-align: center;
+    }

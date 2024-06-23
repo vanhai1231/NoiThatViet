@@ -1,0 +1,67 @@
+﻿@model IEnumerable<NoiThatViet_Nhom3.Models.SanPham>
+
+@{
+    ViewBag.Title = "Danh sách yêu thích";
+}
+
+<h2>Danh sách yêu thích</h2>
+<script src="~/Content/WishList.js"></script>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <div class="card-wrapper">
+                <div class="card">
+                    <button class="btn btn-link deleteFromWishlist" data-product-id="@item.MaSanPham">
+                        <span class="bi bi-x-lg"></span> <!-- Biểu tượng X -->
+                    </button>
+                    <img class="card-img-top" src="@Url.Content(item.HinhAnh)" alt="@item.TenSanPham" />
+                    <div class="card-fixed">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.TenSanPham)</h5>
+                        <p class="card-text">Giá: @item.Gia.ToString("N0")</p>
+                        <a href="javascript:void(0);" class="btn btn-primary addToCartBtn" data-product-id="@item.MaSanPham">Thêm vào giỏ hàng</a>
+                        <a href="@Url.Action("Detail", "SanPham", new { id = item.MaSanPham.Trim() })" class="btn btn-secondary">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script>
+        $(".addToCartBtn").click(function () {
+        var productId = $(this).data("product-id");
+
+        $.ajax({
+            url: "@Url.Action("AddToCart", "Cart")",
+            type: "POST",
+            data: { id: productId },
+            success: function (response) {
+                if (response.success) {
+                    // Update cart item count on success
+                    $(".cart-item-count").text(response.cartItemCount);
+
+                    // Hiển thị thông báo thành công
+                    toastr.success(response.message);
+                } else {
+                    // Hiển thị thông báo lỗi
+                    toastr.error(response.message);
+                }
+            },
+        });
+    });
+
+</script>
+@section scripts {
+    <style>
+        .toast-success {
+            background-color: #28a745 !important; /*Nền màu xanh*/
+            color: #fff !important; /*Font màu trắng*/
+        }
+
+        .toast-error {
+            background-color: #dc3545 !important; /*Nền màu đỏ*/
+            color: #fff !important;
+        }
+    </style>
+
+}

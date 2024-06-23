@@ -1,0 +1,104 @@
+﻿@model NoiThatViet_Nhom3.Models.User
+@{
+    ViewBag.Title = "ThongTinTK";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="~/Content/StyleForThongTin.css">
+
+    <!-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar top -->
+    <div class="navbar-top">
+        <div class="title">
+            <h1>Profile</h1>
+        </div>
+
+        <!-- Navbar -->
+        <ul>
+            <li>
+                <a href="#sign-out" onclick="confirmLogout()">
+                    <i class="fa fa-sign-out-alt fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- End -->
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+        <h2>Thông tin cá nhân</h2>
+        <div class="card">
+            <div class="card-body">
+                <form id="userInfoForm">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Họ và Tên</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" id="name" value="@Model.Name" style="display: none;" />
+                                    <span id="nameDisplay">@Model.Name</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="email" id="email" value="@Model.Email" style="display: none;" />
+                                    <span id="emailDisplay">@Model.Email</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" id="diachi" value="@Model.Diachi" style="display: none;" />
+                                    <span id="diachiDisplay">@Model.Diachi</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Số điện thoại</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="tel" id="sdt" value="@Model.SDT" style="display: none;" />
+                                    <span id="sdtDisplay">@Model.SDT</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <h2>Mạng xã hội</h2>
+        <div class="card">
+            <div class="card-body">
+                <div class="social-media">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+</body>

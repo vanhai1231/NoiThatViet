@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "ThanhToanThanhCong";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .payment-success {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="payment-success">
+        <img src="~/Content/images/Success.jpg" alt="Payment Successful" />
+        <h2>Thanh toán thành công!</h2>
+        <p>Cảm ơn bạn đã đặt hàng với Nội Thất Việt. Hóa đơn thanh toán sẽ được gửi tới E-mail của bạn.</p>
+    </div>
+    <a href="@Url.Action("Index", "SanPham")" class="btn btn-primary">Quay về trang chủ</a>
+</div>

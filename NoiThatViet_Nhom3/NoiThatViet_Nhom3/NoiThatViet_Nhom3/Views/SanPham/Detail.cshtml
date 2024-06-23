@@ -1,0 +1,119 @@
+﻿@model NoiThatViet_Nhom3.Models.SanPham
+@{
+    ViewBag.Title = "Thông tin chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/StyleForDetail.css" rel="stylesheet" />
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="additional-images" style="max-height: 500px; overflow-y: auto;">
+                @foreach (var image in ViewBag.Images)
+                {
+                    <img src="@Url.Content(image.HinhAnh)" alt="@ViewBag.Product.TenSanPham" class="img-fluid mb-2">
+                }
+            </div>
+        </div>
+        <div class="col-md-5">
+            <img src="@Url.Content(ViewBag.Product.HinhAnh)" alt="@ViewBag.Product.TenSanPham" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <h1>@ViewBag.Product.TenSanPham</h1>
+            @{
+                // Kiểm tra nếu sản phẩm có giảm giá
+                var discount = ViewBag.Discount;
+                if (discount != null)
+                {
+                    // Tính giá mới sau khi giảm giá
+                    var giaMoi = ViewBag.Product.Gia - (ViewBag.Product.Gia * discount.PhanTramGiam / 100);
+                    <p>Giá bán: <del>@ViewBag.Product.Gia.ToString("N0")</del> @giaMoi.ToString("N0")</p>
+                }
+                else
+                {
+                    // Nếu không giảm giá, hiển thị giá cũ
+                    <p>Giá bán: @ViewBag.Product.Gia.ToString("N0")</p>
+                }
+            }
+            <p>Mô tả sản phẩm: @ViewBag.Product.MoTa</p>
+            <p>Chất liệu sử dụng: @ViewBag.Product.VatLieu</p>
+            <p>Kích thước sản phẩm: @ViewBag.Product.KichThuoc</p>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="minus-btn">-</button>
+                </div>
+                <input type="text" class="form-control text-center" id="quantity" value="1" readonly>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="plus-btn">+</button>
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-success addToCart" id="add-to-cart-btn" data-product-id="@ViewBag.Product.MaSanPham">Thêm vào giỏ hàng</a>
+            <a href="@Url.Action("Index", "SanPham")" class="btn btn-primary">Quay lại</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    toastr.options = {
+        "closeButton": true,
+        "positionClass": "toast-bottom-right",
+        "progressBar": true,
+        "timeOut": "3000", // 3s
+    };
+
+    $(document).ready(function () {
+        var maxQuantity = @ViewBag.MaxQuantity; // Lấy số lượng tối đa từ ViewBag
+
+        $("#plus-btn").click(function () {
+            var quantity = parseInt($("#quantity").val());
+            if (quantity < maxQuantity) {
+                quantity++;
+                $("#quantity").val(quantity);
+            } else {
+                toastr.error("Chỉ có thể mua tối đa " + maxQuantity + " sản phẩm.");
+            }
+        });
+
+        $("#minus-btn").click(function () {
+            var quantity = parseInt($("#quantity").val());
+            if (quantity > 1) {
+                quantity--;
+                $("#quantity").val(quantity);
+            }
+        });
+
+        $(".addToCart").click(function () {
+            var productId = $(this).data("product-id");
+            var selectedQuantity = parseInt($("#quantity").val());
+            if (selectedQuantity <= maxQuantity) {
+                $.ajax({
+                    url: "@Url.Action("AddToCart2", "Cart")",
+                    type: "POST",
+                    data: { id: productId, quantity: selectedQuantity },
+                    success: function (response) {
+                        if (response.success) {
+                            // Update số lượng sản phẩm trong giỏ hàng
+                            $(".cart-item-count").text(response.cartItemCount);
+
+                            // Hiển thị thông báo thành công
+                            toastr.success(response.message);
+                        } else {
+                            // Hiển thị thông báo lỗi
+                            toastr.error(response.message);
+                        }
+                    },
+                    error: function () {
+                        // Xử lý lỗi nếu có
+                        toastr.error("Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng.");
+                    }
+                });
+            } else {
+                toastr.error("Chỉ có thể mua tối đa " + maxQuantity + " sản phẩm.");
+            }
+        });
+    });
+</script>
+
+

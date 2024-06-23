@@ -1,0 +1,10 @@
+﻿@model List<NoiThatViet_Nhom3.Models.LoaiSP>
+<link href="~/Content/StyleForMenu.css" rel="stylesheet" />
+<a>@NoiThatViet_Nhom3.Resources.Messages.Products</a>
+<ul class="dropdown-menu product-menu">
+    @foreach (var sanPham in Model)
+    {
+        <li><a href="@Url.Action("SanPhamTheoLoai", "SanPham", new { id = sanPham.MaLoaiSP.Trim() })">@sanPham.TenLoaiSP</a></li>
+    }
+
+</ul>

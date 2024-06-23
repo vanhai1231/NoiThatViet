@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|d:\\coding\\visual studio\\noithatviet_nhom3\\noithatviet_nhom3\\noithatviet_nhom3\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\areas\\admin\\content\\fonts\\fontawesome-webfont.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\areas\\admin\\content\\fonts\\fontawesome-webfont.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\areas\\admin\\content\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\areas\\admin\\content\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\areas\\admin\\content\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\areas\\admin\\content\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\_productpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\_productpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\error\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\error\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\saukhithanhtoan\\thanhtoanthatbai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\saukhithanhtoan\\thanhtoanthatbai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\saukhithanhtoan\\thanhtoanthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\saukhithanhtoan\\thanhtoanthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\content\\styleforlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\styleforlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\controllers\\saukhithanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\controllers\\saukhithanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\content\\scriptforbanner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\scriptforbanner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\content\\xulygoiysanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\xulygoiysanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\wishlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\wishlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\content\\stylefordetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\content\\stylefordetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\noithatviet_nhom3\\views\\sanpham\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F42E706-3301-4C85-AFED-9C5BABADCEA0}|NoiThatViet_Nhom3\\NoiThatViet_Nhom3.csproj|solutionrelative:noithatviet_nhom3\\views\\sanpham\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1258,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fontawesome-webfont.svg",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\fonts\\fontawesome-webfont.svg",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\fonts\\fontawesome-webfont.svg",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\fonts\\fontawesome-webfont.svg",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\fonts\\fontawesome-webfont.svg",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAD8AAAAcAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-06-22T05:56:38.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\font-awesome.min.css",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\font-awesome.min.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\font-awesome.min.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAABfWQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-22T05:56:36.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\bootstrap.min.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Areas\\Admin\\Content\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAADIJgAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-22T05:56:31.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Error\\Error.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\Error\\Error.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Error\\Error.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\Error\\Error.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T16:28:44.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Controllers\\SanPhamController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA3wCQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:32:17.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ProductPartial.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\_ProductPartial.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\_ProductPartial.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\_ProductPartial.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\_ProductPartial.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAApwB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:37:54.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAG0BAAAAAAAAAAAuwHcBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:48:47.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T05:45:03.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StyleForLayout.css",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\StyleForLayout.css",
+              "ViewState": "AQIAADMAAAAAAAAAAIBZwCcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-02T05:56:41.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAQwK0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T06:56:03.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThanhToanThanhCong.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThanhCong.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThanhCong.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThanhCong.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThanhCong.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T15:11:44.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThanhToanThatBai.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThatBai.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThatBai.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThatBai.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SauKhiThanhToan\\ThanhToanThatBai.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T13:54:52.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\Site.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\Site.css",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\Site.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\Site.css",
+              "ViewState": "AQIAAJ8BAAAAAAAAAAAAAKYBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T09:07:01.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SauKhiThanhToanController.cs",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\SauKhiThanhToanController.cs",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Controllers\\SauKhiThanhToanController.cs",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\SauKhiThanhToanController.cs",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Controllers\\SauKhiThanhToanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T15:07:16.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScriptForBanner.js",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\ScriptForBanner.js",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\ScriptForBanner.js",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\ScriptForBanner.js",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\ScriptForBanner.js",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBZwB8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-26T14:27:18.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T13:33:05.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "XuLyGoiYSanPham.js",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\XuLyGoiYSanPham.js",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\XuLyGoiYSanPham.js",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\XuLyGoiYSanPham.js",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\XuLyGoiYSanPham.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-02T05:45:19.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanPhamTheoLoai.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\SanPhamTheoLoai.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\SanPhamTheoLoai.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\SanPhamTheoLoai.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\SanPhamTheoLoai.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAApwBUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T06:11:47.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYCAAAAAAAAAAAiwEACAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T05:29:12.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Wishlist.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Wishlist.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\Wishlist.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Wishlist.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\Wishlist.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBpwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T09:30:08.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StyleForDetail.css",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForDetail.css",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Content\\StyleForDetail.css",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Content\\StyleForDetail.css",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Content\\StyleForDetail.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-26T14:43:58.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NoiThatViet_Nhom3\\Views\\SanPham\\Detail.cshtml",
+              "ToolTip": "D:\\Coding\\Visual Studio\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\NoiThatViet_Nhom3\\Views\\SanPham\\Detail.cshtml",
+              "RelativeToolTip": "NoiThatViet_Nhom3\\Views\\SanPham\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T06:48:26.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

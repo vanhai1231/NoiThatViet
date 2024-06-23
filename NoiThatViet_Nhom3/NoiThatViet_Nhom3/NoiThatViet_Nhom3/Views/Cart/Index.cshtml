@@ -1,0 +1,80 @@
+﻿@using NoiThatViet_Nhom3.Models;
+@model IEnumerable<CartItemDetail>
+
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    int stt = 1;
+
+    var chiTietDonHang = ViewBag.ChiTietDonHang as List<CartItemDetail>;
+    int tongTien = ViewBag.TongTien;
+}
+
+<div class="container py-5">
+    <h1 class="display-4">Giỏ hàng</h1>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (chiTietDonHang != null && chiTietDonHang.Any())
+                {
+                    foreach (var item in chiTietDonHang)
+                    {
+                        <tr>
+                            <td>@stt</td>
+                            <td>@item.TenSanPham</td>
+                            <td>@item.Gia.ToString("N0")</td>
+                            <td>@item.SoLuong</td>
+                            <td>@(item.ThanhTien.ToString("N0"))</td>
+                            <td>
+                                <form action="@Url.Action("RemoveFromCart", "Cart", new { id = item.id.Trim() })" method="post">
+                                    @Html.AntiForgeryToken() <!-- Đảm bảo an toàn cho CSRF -->
+                                    <button type="submit" class="btn btn-danger">Xóa</button>
+                                </form>
+                            </td>
+                        </tr>
+                        stt++;
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6">Không có sản phẩm trong giỏ hàng. Vui lòng thêm sản phẩm vào trước khi thanh toán.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @if (chiTietDonHang != null && chiTietDonHang.Any())
+    {
+        <div class="text-right">
+            <h4 class="my-4">Tổng tiền: <span class="text-primary">@tongTien.ToString("N0")</span></h4>
+            <a href="@Url.Action("Payment", "Cart", new { tongTien = tongTien })" class="btn btn-primary btn-lg" id="ThanhToan-btn">Thanh toán</a>
+        </div>
+    }
+</div>
+<script>
+    function confirmPayment() {
+    var tongTien = @tongTien;
+        if (tongTien > 50000000) {
+            // If tongTien exceeds 50 million, show alert and return false
+            alert("Số tiền vượt quá hạn mức cho phép. vui lòng thanh toán số tiền dưới 50tr");
+            return false;
+        }
+    return true;
+    }
+    $('#ThanhToan-btn').click(function () {
+        return confirmPayment();
+    });
+</script>

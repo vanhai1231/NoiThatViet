@@ -1,0 +1,74 @@
+﻿@model List<NoiThatViet_Nhom3.Models.DonHang>
+@{
+    ViewBag.Title = "DanhSachDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout-admin.cshtml";
+    // Số lượng đơn hàng giao
+    var giaoCount = Model.Count(item =>
+        item.TrangThaiDH.IndexOf("giao", StringComparison.OrdinalIgnoreCase) >= 0
+    );
+
+    // Số lượng đơn hàng bị hủy
+    var huyCount = Model.Count(item =>
+        item.TrangThaiDH.IndexOf("hủy", StringComparison.OrdinalIgnoreCase) >= 0
+    );
+}
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Lặp qua từng hàng trong bảng
+            $('.tongtien').each(function () {
+                // Lấy giá trị của Tổng Tiền từ từng hàng
+                var totalAmount = $(this).text();
+
+                // Định dạng số thành định dạng tiền tệ 200.00
+                var formattedAmount = numeral(totalAmount).format('0,0 đ');
+
+                // Hiển thị giá trị đã định dạng vào từng hàng
+                $(this).text(formattedAmount);
+            });
+        });
+    </script>
+}
+<h2>Danh sách đơn hàng</h2>
+@Html.ActionLink("Thêm mới đơn hàng", "ThemMoiDonHang")
+<div class="" style="text-align:center">
+    Tổng số đơn hàng: <strong>@Model.Count()</strong>
+    - Tổng số tiền: <strong>@Model.Sum(item => item.TongTien).ToString("#,##0")</strong>
+    -  Đơn hàng giao thành công: <strong>@giaoCount</strong><br />
+    Đơn hàng bị hủy: <strong>@huyCount</strong>
+</div>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Mã Đơn Hàng</th>
+                <th scope="col">Tổng Tiền</th>
+                <th scope="col">Ngày Lập</th>
+                <th scope="col">Địa Chỉ</th>
+                <th scope="col">Trạng Thái</th>
+                <th scope="col">Thông Tin</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>@item.MaDH</td>
+                    <td class="tongtien">@item.TongTien</td>
+                    <td>@item.NgayLap</td>
+                    <td>@item.DiaChiGiaoHang</td>
+                    <td>@item.TrangThaiDH</td>
+                    <td>@item.ThongTinDH</td>
+                    <td>
+                        @Html.ActionLink("Sửa ", "SuaDonHang", new { id = item.MaDH.Trim() })
+                        @Html.ActionLink("Xóa", "XoaDonHang", new { id = item.MaDH.Trim() })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

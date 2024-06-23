@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "ThanhToanThatBai";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment-success {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="payment-success">
+        <img src="~/Content/images/Failed.jpg" alt="Payment Unsuccessful" />
+        <h2>Thanh toán thất bại!</h2>
+        <p>Thanh toán đã được hủy.</p>
+    </div>
+    <a href="@Url.Action("Index", "SanPham")" class="btn btn-primary">Quay về trang chủ</a>
+</div>

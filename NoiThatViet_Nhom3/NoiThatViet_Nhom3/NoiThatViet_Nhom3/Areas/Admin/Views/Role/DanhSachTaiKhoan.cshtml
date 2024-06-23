@@ -1,0 +1,125 @@
+﻿@model List<NoiThatViet_Nhom3.Models.TaiKhoan>
+
+@{
+    ViewBag.Title = "DanhSachTaiKhoan";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout-admin.cshtml";
+    // Số lượng admin
+    var AdminCount = Model.Count(item =>
+        item.LoaiTK.IndexOf("admin", StringComparison.OrdinalIgnoreCase) >= 0
+    );
+
+    // Số lượng User
+    var UserCount = Model.Count(item =>
+        item.LoaiTK.IndexOf("User", StringComparison.OrdinalIgnoreCase) >= 0
+    );
+    // Số lượng NV
+    var NVCount = Model.Count(item =>
+        item.LoaiTK.IndexOf("nhân viên", StringComparison.OrdinalIgnoreCase) >= 0
+    );
+}
+<style>
+    .break-word {
+        max-width: 150px; /* Điều chỉnh độ rộng tối đa cho cột */
+        word-wrap: break-word; /* Đảm bảo nội dung tự động xuống hàng */
+    }
+</style>
+<h2>Danh sách tài khoản và thông tin người dùng</h2>
+@Html.ActionLink("Thêm mới người dùng", "ThemMoiUser")
+@{
+    var user = Session["User"] as NoiThatViet_Nhom3.Models.TaiKhoan;
+}
+<div class="" style="text-align:center">
+    Tổng Số: <strong>@Model.Count</strong>
+    - Admin: <strong>@AdminCount</strong><br />
+
+</div>
+<div class="" style="text-align:center">
+    Khách: <strong>@UserCount</strong>
+    - Nhân Viên: <strong>@NVCount</strong>
+</div>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Tài khoản</th>
+                <th scope="col">Họ tên</th>
+                <th scope="col">Mật khẩu</th>
+                <th scope="col">Loại tài khoản</th>
+                <th scope="col">Địa chỉ</th>
+                <th scope="col">Email</th>
+                <th scope="col">Số điện thoại</th>
+                <th scope="col">Hoạt Động</th>
+                <th scope="col">Chức Năng</th>
+                <th scope="col">Tùy Chọn</th>
+
+            </tr>
+        </thead>
+        <tbody>
+         
+            @foreach (var taiKhoan in Model)
+            {
+                <tr>
+                    <td>@taiKhoan.TenDangNhap</td>
+                    <td>@taiKhoan.ThongTinCaNhan.HoTen</td>
+                    <td class="break-word">@taiKhoan.MatKhau</td>
+                    <td>@taiKhoan.LoaiTK</td>
+                    <td>@taiKhoan.ThongTinCaNhan.DiaChi</td>
+                    <td class="break-word">@taiKhoan.ThongTinCaNhan.Email</td>
+                    <td>@taiKhoan.ThongTinCaNhan.Sdt</td>
+                    <td>@taiKhoan.ThongTinCaNhan.TrangThai</td>
+                    
+                    <td>
+                        @if (@user != null && @user.LoaiTK.Trim().ToLower() == "nhân viên")
+                        {
+                            if (taiKhoan.LoaiTK.Trim().ToLower() == "admin")
+                            {
+                                <text>
+                                    Không Sửa đc / Không Xóa Được
+                                </text>
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Sửa / ", "SuaTaiKhoan", new { id = taiKhoan.id })
+                                @Html.ActionLink("Xóa", "XoaTaiKhoan", new { id = taiKhoan.id })
+                            }
+
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Sửa / ", "SuaTaiKhoan", new { id = taiKhoan.id })
+                            @Html.ActionLink("Xóa", "XoaTaiKhoan", new { id = taiKhoan.id })
+                        }
+
+                    </td>
+                    <td>
+                        @if (@user != null && @user.LoaiTK.Trim().ToLower() == "nhân viên")
+                        {
+                            if (taiKhoan.LoaiTK.Trim().ToLower() == "admin")
+                            {
+                                <text>
+                                    Trạng Thái / Reset Password
+                                </text>
+
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Trạng Thái / ", "TuyChonTaiKhoan", new { id = taiKhoan.id })
+                                @Html.ActionLink("Reset Password", "ResetPassword", new { id = taiKhoan.id })
+                            }
+
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Trạng Thái / ", "TuyChonTaiKhoan", new { id = taiKhoan.id })
+                        @Html.ActionLink("Reset Password", "ResetPassword", new { id = taiKhoan.id })
+                    }
+
+
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

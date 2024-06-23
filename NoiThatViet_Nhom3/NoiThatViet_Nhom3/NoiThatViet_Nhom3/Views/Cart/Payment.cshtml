@@ -1,0 +1,23 @@
+﻿@model int
+
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-5">
+    <h1 class="display-4">Thanh toán đơn hàng</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Tổng tiền: @Model.ToString("N0")</h4>
+                    <form id="paymentForm" action="@Url.Action("Payment", "Cart")" method="post">
+                        @Html.Hidden("tongTien", Model)
+                        <button type="submit" class="btn btn-primary btn-lg">Thanh toán qua MoMo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

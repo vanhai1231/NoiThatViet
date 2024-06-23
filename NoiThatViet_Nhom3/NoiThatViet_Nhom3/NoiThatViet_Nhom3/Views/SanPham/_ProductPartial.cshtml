@@ -1,0 +1,61 @@
+﻿@model IEnumerable<NoiThatViet_Nhom3.Models.SanPham>
+@{
+    ViewBag.Title = "_ProductPartial";
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+}
+<link href="~/Content/Site.css" rel="stylesheet" />
+<script src="~/Content/ScriptForBanner.js"></script>
+
+@foreach (var item in Model)
+{
+    <div class="col-md-3 product-item">
+        <div class="card-wrapper">
+            <div class="card">
+                <img class="card-img-top" src="@Url.Content(item.HinhAnh)" alt="@item.TenSanPham" />
+                <div class="card-fixed">
+                    @if (item.GiamGia > 0)
+                    {     
+                        <div class="discount-badge">-@item.PhanTramGiam.ToString("N0")%</div>
+                    }
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.TenSanPham)</h5>
+                    @if (item.GiamGia > 0)
+                    {
+                        <p class="card-text">Giá: <del>@item.Gia.ToString("N0") đ</del></p>
+                        <p class="card-text">Giá Khuyến mãi: @item.GiamGia.ToString("N0") đ</p>
+                    }
+                    else
+                    {
+                        <p class="card-text">Giá: @item.Gia.ToString("N0") đ</p>
+                    }
+                    <button class="btn btn-link addToWishlistBtn" data-product-id="@item.MaSanPham" title="Thêm vào WishList">
+                        <span class="bi bi-heart"></span> <!-- Biểu tượng trái tim -->
+                    </button>
+                    <a href="javascript:void(0);" class="btn btn-primary addToCartBtn" data-product-id="@item.MaSanPham">Thêm vào giỏ hàng</a>
+                    <a href="@Url.Action("Detail", "SanPham", new { id = item.MaSanPham.Trim() })" class="btn btn-secondary">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+<script>
+    function redirectToDetail(productId) {
+        window.location.href = '@Url.Action("Detail", "SanPham")' + '?id=' + productId;
+    }
+
+    function GetProductDiscount(maSanPham) {
+        var discount = null;
+        $.ajax({
+            url: '@Url.Action("GetProductDiscount", "SanPham")',
+            type: 'GET',
+            data: { maSanPham: maSanPham },
+            async: false,
+            success: function (data) {
+                discount = data;
+            }
+        });
+        return discount;
+    }
+</script>

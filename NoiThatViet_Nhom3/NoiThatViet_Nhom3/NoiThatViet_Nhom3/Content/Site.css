@@ -1,0 +1,584 @@
+﻿/* CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-width: 0;
+}
+
+/* CSS */
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+}
+
+.banner-title {
+    position: absolute;
+    top: 20px; /* Đưa vị trí lên 20px từ phía trên */
+    right: 150px; /* Đưa vị trí sang 30px từ phía phải */
+    text-align: right; /* Căn phải cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.banner-title h1 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+}
+
+.banner-text {
+    position: absolute;
+    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    right: 30px; /* Đưa vị trí sang 30px từ phía phải */
+    text-align: right; /* Căn phải cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 10px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+}
+
+/*banner2*/
+.banner2 {
+    height: auto;
+    object-fit: cover;
+    margin: 5px 0;
+    width: 100%;
+    display: inline-block;
+}
+
+/* CSS */
+.spbanchay-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Khoảng cách giữa banner và hình sanphambanchay */
+}
+
+/*sản phẩm bán chạy */
+.spbanchay {
+    margin: 0px 0;
+    width: 650px;
+    height: 200px;
+}
+
+.spbanchay-title {
+    position: absolute;
+    top: 20px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+    .spbanchay-title h1 {
+        font-size: 30px;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Đổ bóng cho tiêu đề */
+    }
+
+.spbanchay-text {
+    position: absolute;
+    top: 60px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+    .spbanchay-text p {
+        font-size: 16px;
+        margin: 5px 0 0; /* Khoảng cách giữa tiêu đề và mô tả */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng cho mô tả */
+    }
+
+/*đèn trang trí */
+.dentrangtri {
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.dentrangtri-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.dentrangtri-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.dentrangtri-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+/*đồ trang trí*/
+.dotrangtri {
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+}
+
+.dotrangtri-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.dotrangtri-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.dotrangtri-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+/* thiết bị vệ sinh*/
+.thietbivesinh {
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+}
+
+.thietbivesinh-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.thietbivesinh-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.thietbivesinh-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+/*sản phẩm hàng đầu */
+.sphangdau {
+    margin: 0px 0;
+    width: 650px;
+    height: 200px;
+}
+
+.sphangdau-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sphangdau-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.sphangdau-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+/*Đồ nội thất*/
+.donoithat {
+    margin: 0px 0;
+    width: 200px;
+    height: 200px;
+}
+
+.donoithat-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.donoithat-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.donoithat-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+/*Đồ thủ công*/
+.dothucong {
+    margin: 0px 0;
+    width: 427px;
+    height: 200px;
+}
+
+.dothucong-title h1 {
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.dothucong-title {
+    position: absolute;
+    top: 40px; /* Đưa vị trí lên 20px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+.dothucong-text {
+    position: absolute;
+    top: 70px; /* Đưa vị trí lên 60px từ phía trên */
+    left: 30px; /* Đưa vị trí sang 30px từ phía trái */
+    text-align: left; /* Căn trái cho văn bản */
+    color: white; /* Màu chữ trắng */
+}
+
+/*hiệu ứng*/
+
+.spbanchay:hover,
+.dentrangtri:hover,
+.dotrangtri:hover,
+.thietbivesinh:hover,
+.sphangdau:hover,
+.donoithat:hover,
+.dothucong:hover {
+    transform: scale(1.05); /* Phóng to 1.05 lần */
+    transition: transform 0.3s ease; /* Hiệu ứng dần dần trong 0.3 giây */
+}
+
+/* Tùy chỉnh kích thước và vị trí title và text */
+.banner-container .banner-title,
+.banner-container .banner-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 1; /* Để title và text hiển thị trên ảnh */
+}
+
+.banner-container .banner-text {
+    top: 60px;
+}
+
+.banner-container .banner-title h1,
+.banner-container .banner-text p {
+    margin: 0;
+}
+
+.col-md-6,
+.col-md-2,
+.col-md-4 {
+    position: relative; /* Để div con trong có thể position absolute */
+}
+
+.col-md-3 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+/*================ Collection  ================ */
+.wrap-collection-title .heading-collection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrap-collection-title .heading-collection {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+.wrap-collection-title .heading-collection h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/*
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+/*thanh lọc*/
+.filter-bar-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    background: #ffffff;
+}
+
+.form-control, .form-select {
+    border-radius: 20px;
+    margin-top: -7px;
+}
+
+.btn-apply {
+    border-radius: 0 !important;
+    color: black;
+    background-color: white;
+    border-color: black;
+    margin-bottom:9px;
+}
+/*sản phẩm */
+.col-md-3 {
+    width: 25%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.card-wrapper {
+    height: 100%; /* Chiều cao sẽ đựng toàn bộ chiều cao của cột */
+    display: flex; /* Sử dụng flexbox để canh chỉnh nội dung bên trong */
+    flex-direction: column; /* Canh chỉnh các phần tử con theo chiều dọc */
+    justify-content: space-between; /* Canh giữa nội dung theo chiều dọc */
+}
+
+.card {
+    height: 100%; /* Chiều cao sẽ đựng toàn bộ chiều cao của khung thông tin */
+    display: flex; /* Sử dụng flexbox để canh chỉnh nội dung bên trong */
+    flex-direction: column; /* Canh chỉnh các phần tử con theo chiều dọc */
+    justify-content: space-between; /* Canh giữa nội dung theo chiều dọc */
+    border: 1px solid #83888d; /* Đường viền cho khung thông tin */
+    border-radius: 5px; /* Bo tròn các góc của khung thông tin */
+    padding: 15px; /* Khoảng cách padding bên trong khung thông tin */
+    box-sizing: border-box; /* Đảm bảo kích thước của khung tính cả border và padding */
+}
+.card-title {
+    font-size: 18px; /* Kích thước chữ cho tiêu đề sản phẩm */
+    margin-bottom: 10px; /* Khoảng cách dưới của tiêu đề */
+}
+
+.card-text {
+    font-size: 16px; /* Kích thước chữ cho nội dung sản phẩm */
+    margin-bottom: 10px; /* Khoảng cách dưới của nội dung */
+}
+
+.card-buttons {
+    margin-top: auto; /* Kéo các nút lên phía dưới của khung thông tin */
+}
+
+.card-img-top {
+    height: 200px; /* Đặt chiều cao của ảnh là 200px */
+    object-fit: cover; /* Hiển thị ảnh bằng cách đè lên và căn giữa */
+}
+
+.container.mt-4 {
+    margin-bottom: 10px;
+}
+
+.card-wrapper {
+    position: relative;
+}
+
+    .card-wrapper .bi-heart {
+        position: relative;
+        top: 0;
+        right: 0;
+        font-size: 24px;
+        color: black;
+        background-color: white;
+        padding: 5px;
+    }
+.deleteFromWishlist {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+/*Lam slide quảng cáo*/
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none
+}
+
+/*2 nút < và >*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/*Dat nut > ở bên phải*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* Hiện hiệu ứng khi để chuột lên nút */
+    .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+.slideshow-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+/*Hieu ung lam mo*/
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.ads {
+    object-fit: cover;
+    max-width: 100%;
+    height: 500px;
+}
+
+/*khung sản phẩm*/
+.card {
+    position: relative;
+    border-radius: 0px;
+}
+.card-wrapper:hover .card {
+    border-color: #007bff; /* Màu viền khi hover */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Hiệu ứng bóng đổ khi hover */
+}
+.btn-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+
+/*cố định 2 nút thêm giỏ hàng và xem thêm*/
+/*.card-body {
+    position: relative;
+    height: 250px;
+    padding-bottom: 60px; } /* Tăng đệm ở dưới để chứa các nút */
+.card-fixed {
+    height: 200px !important;
+}
+    .card-fixed .btn-primary {
+        position: absolute;
+        bottom: 30px; /* Đặt vị trí của nút "Thêm vào giỏ hàng" ở dưới cùng */
+        left: 10px; /* Đặt nút ở bên trái */
+        background-color: white; /* Đặt màu nền của nút là trắng */
+        color: black; /* Đặt màu chữ của nút là đen */
+        border-radius: 0; /* Đặt góc vuông cho nút */
+        border-color: black;
+    }
+    .card-fixed .btn-secondary {
+        position: absolute;
+        bottom: 30px; /* Đặt vị trí của nút "Xem thêm" ở dưới cùng */
+        right: 10px; /* Đặt nút ở bên phải */
+        border-radius: 0;
+    }
+
+.btn-secondary {
+    --bs-btn-bg: #000;
+}
+
+.card-body .btn-primary {
+    background-color: white; /* Đặt màu nền của nút là trắng */
+    color: black; /* Đặt màu chữ của nút là đen */
+    border: none; /* Loại bỏ viền của nút */
+    border-radius: 0; /* Đặt góc vuông cho nút */
+    border: 1px solid black;
+}
+.badge {
+    color: white;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    background-color: #d26e4b;
+    border-radius: 50%; /*Làm ra hình tròn*/
+    border: 2px solid #d26e4b;
+    border-radius: 99px;
+    min-width: 13px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    font-size: 10px;
+    padding: 0;
+}
+
+/*css cho phần % khuyến mãi sản phẩm */
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

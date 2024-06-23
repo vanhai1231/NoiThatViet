@@ -1,0 +1,47 @@
+﻿@using NoiThatViet_Nhom3.Models;
+@model List<DonHangViewModel>
+
+@{
+    ViewBag.Title = "Thông tin đơn hàng";
+}
+
+<h2>Thông tin đơn hàng</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <th>Ngày lập</th>
+                <th>Tên sản phẩm</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th>Thông tin</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var donHang in Model)
+            {
+                <tr>
+                    <td>@donHang.MaDH</td>
+                    <td>@donHang.NgayLap.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @foreach (var tenSanPham in donHang.TenSanPham.Split(',')) // Sử dụng phương thức Split để tách các tên sản phẩm
+                        {
+                            <div>@tenSanPham.Trim()</div>
+                        }
+                    </td>
+                    <td>@donHang.TongTien.ToString("N0") đ</td>
+                    <td>@donHang.TrangThaiDH</td>
+                    <td>@donHang.ThongTinDH</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có đơn hàng nào.</p>
+}
+

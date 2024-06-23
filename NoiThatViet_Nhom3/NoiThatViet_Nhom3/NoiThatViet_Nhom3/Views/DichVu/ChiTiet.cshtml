@@ -1,0 +1,71 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dịch Vụ</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/StyleForChiTiet.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/StyleForMenu.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>@Model.TenDichVu</h2>
+    <p>@Html.Raw(("&bull; " + Model.MoTaChiTiet).Replace("-", "<br/><br/>&bull; "))</p>
+    <div class="wrapper-home-banner-servce">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 services">
+                    <div class="img-outer">
+                        <div class="service-img fade-box">
+                            <img width="50" height="50" src="~/Content/images/GiaoHangVaLapDat.jpg" alt="Giao Hàng &amp; Lắp Đặt">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="title">Giao Hàng &amp; Lắp Đặt</div>
+                        <div class="desc">Miễn Phí</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 services">
+                    <div class="img-outer">
+                        <div class="service-img fade-box">
+                            <img width="50" height="50" src="~/Content/images/DoiTra.jpg" alt="Đổi Trả 1 - 1">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="title">Đổi Trả 1 - 1</div>
+                        <div class="desc">Miễn Phí</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 services">
+                    <div class="img-outer">
+                        <div class="service-img fade-box">
+                            <img width="50" height="50" src="~/Content/images/BaoHanh.jpg" alt="Bảo Hành 2 Năm">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="title">Bảo Hành 2 Năm</div>
+                        <div class="desc">Miễn Phí</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 services">
+                    <div class="img-outer">
+                        <div class="service-img fade-box">
+                            <img width="50" height="50" src="~/Content/images/TuVan.jpg" alt="Tư Vấn Thiết Kế">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="title">Tư Vấn Thiết Kế</div>
+                        <div class="desc">Miễn Phí</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

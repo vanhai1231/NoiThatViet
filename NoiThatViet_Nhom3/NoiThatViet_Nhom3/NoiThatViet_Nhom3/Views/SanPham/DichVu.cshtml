@@ -1,0 +1,9 @@
+﻿@model IEnumerable<NoiThatViet_Nhom3.Models.DichVu>
+
+<a>@NoiThatViet_Nhom3.Resources.Messages.Service</a>
+<ul>
+    @foreach (var Dichvus in Model)
+    {
+        <li><a href="@Url.Action("ChiTiet", "DichVu", new { id = Dichvus.id.Trim() })">@Dichvus.TenDichVu</a></li>
+    }
+</ul>

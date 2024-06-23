@@ -1,0 +1,13 @@
+﻿@model List<NoiThatViet_Nhom3.Models.Phong>
+
+<a>@NoiThatViet_Nhom3.Resources.Messages.Room</a>
+<ul class"dropdown-menu-right product-menu">
+    @foreach (var phongs in Model)
+    {
+        <li>
+            <a href="@Url.Action("SanPhamTheoPhong", "SanPham", new { id = phongs.MaPhong.Trim() })">@phongs.TenPhong</a>
+        </li>
+    }
+</ul>
+
+
